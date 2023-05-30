@@ -1,0 +1,11 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee">
+    <servlet>
+        <servlet-name> Fservlet</servlet-name>
+        <servlet-class> Fservlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> Fservlet</servlet-name>
+        <url-pattern>/Fservlet</url-pattern>
+    </servlet-mapping>
+</web-app>
